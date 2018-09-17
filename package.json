@@ -1,0 +1,19 @@
+{
+  "name": "automation-webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wdio-allure-reporter": "^0.7.0",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.2"
+  }
+}
